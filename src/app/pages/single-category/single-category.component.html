@@ -1,0 +1,21 @@
+<div class="container mt-5">
+  <div class="mb-4">
+    <h3>{{categoryData.category}}</h3>
+    <h6>Portraying the world around us in a realistic way...</h6>
+  </div>
+
+  <p>
+    Actually succulents pitchfork, copper mug thundercats small batch cliche
+    locavore microdosing solarpunk normcore food truck neutra echo park beard.
+    Mlkshk cred occupy tilde fanny pack roof party vape man braid kogi
+    distillery. Ramps butcher XOXO man bun single-origin coffee. Readymade
+    typewriter helvetica tofu sus photo booth.
+  </p>
+
+  <div class="container">
+
+    <div class="col-md-12 mb-4"  *ngFor="let post of categoryPosts">
+      <app-post-card [postData] = "post"></app-post-card>
+    </div>
+  </div>
+</div>

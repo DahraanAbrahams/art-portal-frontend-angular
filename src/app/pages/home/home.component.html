@@ -1,0 +1,23 @@
+<section class="container mt-5">
+    <div class="mb-4">
+        <h3>Art Movement</h3>
+        <h6>The most distinct art movements of modern art ...</h6>
+    </div>
+
+  <p class="mb-5">
+    Pop-up vinyl shaman activated charcoal offal, pour-over leggings neutra
+    marxism fixie typewriter 90's fanny pack tote bag selvage. Vape hashtag
+    twee, franzen listicle poutine subway tile microdosing bicycle rights chia.
+    Gastropub listicle everyday carry, marfa 8-bit scenester bespoke woke 3 wolf
+    moon adaptogen banjo +1 chia. Sustainable copper mug thundercats, brunch
+    coloring book fam keytar single-origin coffee.
+  </p>
+
+  <div class="container">
+
+    <div class="col-md-12 mb-4"  *ngFor="let post of allPosts">
+      <app-post-card [postData] = "post"></app-post-card>
+    </div>
+  </div>
+
+</section>

@@ -1,0 +1,13 @@
+.card {
+ border: none;
+}
+
+span, a {
+    color: var(--secondary);
+}
+
+img{
+    margin: 10px 0px;
+    padding-top: 10px;
+    width: 480px;
+}

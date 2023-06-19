@@ -1,0 +1,19 @@
+<div class="container drop-shadow-effect" [routerLink]="['/post', postData.id]">
+<div class="row">
+  <div class="col-md-6">
+    <img
+    src="{{postData.data.postImg}}"
+    alt="image"
+  />
+  </div>
+  <div class="col-md-6">
+    <h3 class="mt-2 mb-3">{{postData.data.title}}</h3>
+      <p>{{postData.data.summary}}</p>
+      <p class="mt-5 d-flex align-content-end">
+        Read more about <span><a>&nbsp; {{postData.data.title}} &nbsp;</a></span> here
+      </p>
+  </div>
+
+</div>
+</div>
+
